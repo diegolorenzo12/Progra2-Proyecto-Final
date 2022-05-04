@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Empresa.sol": "InterfaceEmpresa"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Empresa.sol": {
+			"keccak256": "0xd44c4089bf2e29d0af860977c2a29316735684faaa6dd6a7314531a10f80be7a",
+			"urls": [
+				"bzz-raw://67e4da2021bb586903c959175dde1e59ced65c61dd5871e62c0052aa6f5aed20",
+				"dweb:/ipfs/QmQwEVi6FRMtsGpmsofmT9xCHUonLr23w9wHEan6cchmC8"
+			]
+		}
+	},
+	"version": 1
+}

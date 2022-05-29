@@ -43,6 +43,12 @@ contract Products {
         return productLines[_UPC].owner;
     }
 
+    event getProductLineOwnerEvent(address _ownerAddr);
+
+    function emitProductLineOwner(uint256 _UPC) public {
+        emit getProductLineOwnerEvent(productLines[_UPC].owner);
+    }
+
     //--------------------------------------------------
     //productos solos
     //--------------------------------------------------
@@ -113,6 +119,30 @@ contract Products {
 
         //cambio el estado del producto segun el nuevo dueño
         changeState(_idProduct, role);
+    }
+
+    function getPastOwners(uint256 _idProduct)
+        public
+        view
+        returns (address[] memory)
+    {
+        return products[_idProduct].pastOwnersId;
+    }
+
+    function getProductState(uint256 _idProduct) public view returns (State) {
+        return products[_idProduct].productState;
+    }
+
+    event getPastOwnersEvent(address[] _pastOwners);
+
+    function emitPastOwners(uint256 _idProduct) public {
+        emit getPastOwnersEvent(products[_idProduct].pastOwnersId);
+    }
+
+    event getProductStateEvent(State _productState);
+
+    function emitProductState(uint256 _idProduct) public {
+        emit getProductStateEvent(products[_idProduct].productState);
     }
 
     //--------------------------------------------------

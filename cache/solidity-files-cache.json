@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Usuario\\Desktop\\supplychain\\Progra2-Proyecto-Final\\contracts\\Owners.sol": {
-      "lastModificationDate": 1653852542276,
-      "contentHash": "981c27a11c2a5b647cdac5850a1fbc63",
+      "lastModificationDate": 1653854077061,
+      "contentHash": "54f9c87c35b5b800fb769365adb432fa",
       "sourceName": "contracts/Owners.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -38,8 +38,8 @@
       ]
     },
     "C:\\Users\\Usuario\\Desktop\\supplychain\\Progra2-Proyecto-Final\\contracts\\Products.sol": {
-      "lastModificationDate": 1653852638834,
-      "contentHash": "a901a8c3a28a230b8d874ef04b582170",
+      "lastModificationDate": 1653854625729,
+      "contentHash": "33cc0ecda011590c42908f252f4f556d",
       "sourceName": "contracts/Products.sol",
       "solcConfig": {
         "version": "0.8.4",

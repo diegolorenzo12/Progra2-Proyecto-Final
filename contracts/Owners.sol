@@ -34,7 +34,7 @@ contract Owners {
         owners[msg.sender] = Owner(_name, _description, _role, true);
     }
 
-    function getOwner(address owners_addr)
+    function getOwner(address _ownerAddr)
         public
         view
         returns (
@@ -44,9 +44,19 @@ contract Owners {
         )
     {
         return (
-            owners[owners_addr].name,
-            owners[owners_addr].description,
-            owners[owners_addr].role
+            owners[_ownerAddr].name,
+            owners[_ownerAddr].description,
+            owners[_ownerAddr].role
+        );
+    }
+
+    event getOwnerEvent(string _name, string _descritpion, OwnerRole role);
+
+    function emitOwner(address _ownerAddr) public {
+        emit getOwnerEvent(
+            owners[_ownerAddr].name,
+            owners[_ownerAddr].description,
+            owners[_ownerAddr].role
         );
     }
 

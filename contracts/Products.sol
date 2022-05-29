@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "./Owner.sol";
+import "./Owners.sol";
 
 contract Products {
     //referencia al contrato en Owner.sol

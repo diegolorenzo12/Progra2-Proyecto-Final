@@ -1,0 +1,47 @@
+.card2,.card{
+    align-items: center;
+}
+
+.form-control{
+    font-family: 'BenchNine', sans-serif !important;
+    padding: 0.375rem 0.75rem !important;
+}
+
+label{
+    font-family: 'BenchNine', sans-serif !important;
+    color: white;
+    font-size: 30px;
+}
+
+.list-group-item{
+    font-family: 'BenchNine', sans-serif !important;
+    font-size: 15px;
+
+}
+
+.list-group{
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.container2{
+    margin-top:50px;
+}
+
+.card-title{
+    color:white;
+    font-family: 'BenchNine', sans-serif !important;
+
+}
+
+p{
+    display:inline;
+    float:right;
+}
+
+.b{
+    padding-top: 40px;
+    font-family: 'Jura', sans-serif;
+    font-size: 30px;
+    color:white;
+}

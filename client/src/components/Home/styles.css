@@ -1,0 +1,52 @@
+.container2{
+    margin-left: 12%;
+    margin-right: 6%;
+    margin-top: 8%;
+}
+
+.block{
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+    color:white;
+}
+
+#n{
+    color:rgb(0, 204, 255) !important;
+    display:inline;
+
+}
+
+.card{
+    background-color: transparent;
+    flex:auto !important;
+    width: 50% !important;
+}
+
+
+
+.card2{
+    width: 30% !important;
+    align-items: flex-end;
+}
+
+.card-group{
+    flex-direction: row !important;
+    flex-flow: row !important;
+}
+
+.card-body{
+    color:white;
+    font-family: 'BenchNine', sans-serif !important;
+    font-size: 22px;
+}
+
+.btn{
+    font-family: 'Jura', sans-serif;
+    background-color: transparent;
+    border-radius: 17px;
+    border-style: solid;
+    padding: 10px;
+    border-width: 1px;
+    margin-top:20px;
+    font-size:15px;
+}

@@ -1,0 +1,28 @@
+.nav{
+    font-family: 'BenchNine', sans-serif !important;
+    font-size: 25px !important;
+  
+  }
+  
+  .navbar{
+    background-color: transparent !important;
+  }
+  
+  #titulo{
+    font-size: 50px;
+    margin-left: 100px;
+  }
+  
+  .navbar-light,.navbar-toggler,.navbar-brand,.nav-link{
+    color:white !important;
+  
+  }
+  
+  .nav2{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+#nav-active{
+    color: rgb(60, 90, 221) !important;
+    border-bottom-style: solid;
+}

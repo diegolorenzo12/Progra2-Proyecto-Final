@@ -14,13 +14,14 @@ function Verificar() {
   return (
     <div className="container2">
       <CardGroup>
-        <Card className="card2">
+        <Card className="card2 bg-transparent">
           <Form.Group controlId="formFileLg" className="mb-3">
             <label for="formFileLg" class="form-label">
               Ingresa el código QR
             </label>
             <Form.Control type="file" size="lg" />
           </Form.Group>
+
           <div className="card3" style={{ width: "20rem" }}>
             <Card.Img variant="top" src={botella} />
             <Card.Body></Card.Body>
@@ -31,7 +32,7 @@ function Verificar() {
             </ListGroup>
           </div>
         </Card>
-        <Card>
+        <Card className="bg-transparent">
           <Card.Header className="block" as="h5">
             VERIFICAR <p id="n">MEDICINA</p>{" "}
           </Card.Header>

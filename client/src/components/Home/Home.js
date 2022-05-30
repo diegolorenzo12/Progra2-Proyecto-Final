@@ -4,7 +4,11 @@ import React from "react";
 import { Card, Button, CardGroup } from "react-bootstrap";
 import blockc from "../../assets/block.ong.png";
 
-//import blockc from "/block.ong.png";
+/*
+import AddOwnerForm from "../forms/agregarOwner";
+      <AddOwnerForm />
+
+*/
 
 function Home() {
   return (

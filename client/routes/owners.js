@@ -1,4 +1,4 @@
-const path = require("path");
+//const path = require("path");
 
 const express = require("express");
 
@@ -6,7 +6,8 @@ const ownersController = require("../controllers/owners");
 
 const router = express.Router();
 
-router.get("/owners/:OwnerAddress", ownersController.getOwnerByAddress);
+router.get("/owners/", ownersController.getOwnerByAddress);
+router.post("/owners/", ownersController.postOwnerByAddress);
 
 router.post("/createOwner/", ownersController.postCreateOwner);
 

@@ -1,8 +1,20 @@
 exports.getOwnerByAddress = (req, res, next) => {
-  const ownerId = req.params.OwnerAddress;
+  //const ownerId = req.params.OwnerAddress;
   //usar el owner id para buscar en los contratos
 
-  res.render("edit-product", {
+  res.render("owners", {
+    //agarrar estos datos conectandome al contrato
+    name: "",
+    description: "",
+    role: "",
+  });
+};
+
+exports.postOwnerByAddress = (req, res, next) => {
+  //const ownerId = req.params.OwnerAddress;
+  //usar el owner id para buscar en los contratos
+
+  res.render("owners", {
     //agarrar estos datos conectandome al contrato
     name: "",
     description: "",

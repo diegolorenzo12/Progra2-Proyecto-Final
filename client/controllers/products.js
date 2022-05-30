@@ -2,7 +2,7 @@ exports.getProductLineOwnerByUPC = (req, res, next) => {
   const UPC = req.params.UPC;
   //usar el upc para buscar la info dle owner del productline
 
-  res.render("/", {
+  res.render("products", {
     //agarrar estos datos conectandome al contrato
     name: "",
     description: "",
@@ -15,7 +15,7 @@ exports.getProductById = (req, res, next) => {
   const idProduct = req.params.idProduct;
   //usar el productid para buscar en los contratos
 
-  res.render("/", {
+  res.render("products", {
     //agarrar estos datos conectandome al contrato
     name: "",
     description: "",
